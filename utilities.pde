@@ -20,6 +20,9 @@ class button {
   boolean clicked;
   PImage photo;
 
+// copy and paste and fill:
+// button(x, y, w, h, normcol, highcol, xxx, "text", ".pic");
+
   // parameters for buttons, x, y, w, h, normal color, highlight, text display
   button(float xx, float yy, float ww, float hh, color norms, color highs, int modes, String Text, String pics) {
     x = xx;
@@ -91,3 +94,4 @@ class button {
     rect(x, y, w, h, h/6);
   }
 }
+
